@@ -1,0 +1,32 @@
+/* Card.module.css */
+.mainContainer {
+    width: 100%;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .mainContainer2 {
+    max-width: 1280px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: auto;
+  }
+  
+  .mainContainer2Child {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 8px;
+    border: 0.5px solid #03071E;
+  }
+  
+  .imgStyle {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+  }
